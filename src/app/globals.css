@@ -112,8 +112,8 @@ button:hover {
 }
 
 .square {
-  height: 120px;
-  width: 120px;
+  height: 70px;
+  width: 70px;
   margin: 20px;
   border-radius: 10px;
   background-color: #7d7d7d;

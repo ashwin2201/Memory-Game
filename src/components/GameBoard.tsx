@@ -11,7 +11,7 @@ interface Square {
 
 // Initial parameters for the game
 const INITIAL_TIME_LEFT = 10; // 10 second timer
-const INITIAL_LEVEL = 1;
+const INITIAL_LEVEL = 10;
 const INITIAL_GREEN_SQUARES = 3;
 const INITIAL_TIME_TAKEN = 0;
 
@@ -33,7 +33,7 @@ const GameBoard: React.FC = () => {
             case 3: return { gridSize: 16, numGreenSquares: 4 };
             case 4: return { gridSize: 16, numGreenSquares: 5 };
             case 5: return { gridSize: 16, numGreenSquares: 6 };
-            case 6: return { gridSize: 25, numGreenSquares: 5 };
+            case 6: return { gridSize: 25, numGreenSquares:  5 };
             case 7: return { gridSize: 25, numGreenSquares: 6 };
             case 8: return { gridSize: 25, numGreenSquares: 7 };
             case 9: return { gridSize: 36, numGreenSquares: 6 };
