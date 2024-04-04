@@ -14,8 +14,8 @@ const WelcomeScreen: React.FC = () => {
           <li>Click on the squares to select them</li>
           <li>If you select the correct square, a green border appears</li>
           <li>If you select the wrong square, a red border appears</li>
-          <li>Once you have selected all the green squares, the game will end</li>
-          <li>If you do not select all the green squares, the game will end</li>
+          <li>Once you have selected all the green squares, you win and proceed to the next level</li>
+          <li>If you do not select all the green squares, you lose and do not proceed</li>
         </ul>
       <button><Link className='link' href='/game' style={{ textDecoration: 'none' }}>Start Game</Link></button>
     </div>
