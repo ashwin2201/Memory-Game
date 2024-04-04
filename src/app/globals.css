@@ -4,6 +4,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+:root {
+  --fontsize: #1e90ff;
+  --white: #ffffff;
+}
+
 button {
   padding: 10px 20px;
   margin-top: 30px;
@@ -33,15 +38,15 @@ button:hover {
 }
 
 .welcome-screen h1 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .welcome-screen p {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .rulestext {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .welcome-screen ul {
@@ -59,7 +64,7 @@ button:hover {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
   width: fit-content;
-  font-size: 1.5em;
+  font-size: 0.5em;
 }
 
 .welcome-screen ul li::before {
@@ -90,13 +95,13 @@ button:hover {
 }
 
 .game p {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .game button {
   padding: 10px 20px;
   margin-top: 20px;
-  font-size: 2em;
+  font-size: 1em;
   color: #fff;
   background-color: rgba(0, 72, 255, 0.6);
   border: none;
