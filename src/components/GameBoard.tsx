@@ -11,7 +11,7 @@ interface Square {
 
 // Initial parameters for the game
 const INITIAL_TIME_LEFT = 10; // 10 second timer
-const INITIAL_LEVEL = 10;
+const INITIAL_LEVEL = 1;
 const INITIAL_GREEN_SQUARES = 3;
 const INITIAL_TIME_TAKEN = 0;
 
@@ -170,6 +170,7 @@ const GameBoard: React.FC = () => {
                                 </div>}
         {gamePhase === 'won' && level === 10 && <div>
                                     <p>Congratulations! You have completed all levels. Well done!</p>
+                                    <p>You took {timeTaken} seconds to solve this puzzle</p>
                                     <button onClick={restartGame}>Play again</button>
                                 </div>}
         {gamePhase === 'lost' && <button onClick={handleRetry}>Try again</button>}
